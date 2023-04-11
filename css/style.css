@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Sonsie+One&family=Spectral+SC:ital,wght@1,800&display=swap");
+
+header {
+  background-color: var(--bg-color);
+}
+
+header div.container {
+  justify-content: space-between;
+  height: 6rem;
+}
+.logo {
+  font-size: 2.5rem;
+  padding: 0.8rem 1.5rem;
+  font-family: "Sonsie One", cursive;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+nav ul {
+  gap: 30px;
+  font-size: 1.6rem;
+}
+.logo span {
+  color: #999;
+  transform: rotate(45deg);
+  display: inline-block;
+  margin: 0 5px;
+}
