@@ -114,3 +114,43 @@ footer a:hover {
   }
 }
 /* End footer */
+/* About  */
+
+.about {
+  gap: 8px;
+}
+.about article {
+  font-size: 1.5rem;
+  width: 49%;
+  color: black;
+  text-align: center;
+  align-self: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.about h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+.about img {
+  width: 49%;
+  align-self: center;
+}
+@media (max-width: 580px) {
+  .about {
+    flex-direction: column;
+  }
+  .about article:nth-of-type(2) {
+    order: 4;
+  }
+  .about article {
+    width: 100%;
+  }
+  .about img {
+    width: 100%;
+  }
+}
