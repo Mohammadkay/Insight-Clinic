@@ -191,13 +191,13 @@ footer a:hover {
   color: #333;
 }
 
-.team .card.content h3 {
+.team .content h3 {
   font-size: 17px;
   color: #5c5c5c;
   letter-spacing: 1.5px;
 }
 
-.team .card .content p {
+.team .card.content p {
   margin-top: 10px;
   color: #5c5c5c;
 }
@@ -223,14 +223,14 @@ footer a:hover {
 
 /* our services*/
 
-section.services {
+section .services {
   height: 100vh;
   width: 100%;
   display: grid;
   justify-content: center;
   place-items: center;
 }
-div.row.h2 {
+.services div.row.h2 {
   grid-column: 1 / span 2;
   justify-items: center;
   align-items: center;
@@ -238,13 +238,13 @@ div.row.h2 {
   margin-bottom: 30px;
 }
 
-.row {
+.services .row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-.column {
+.services .column {
   width: 100%;
 }
 
@@ -295,16 +295,16 @@ div.row.h2 {
   background-color: #ffff;
 }
 
-.card:hover .h3 {
+.services .card:hover .h3 {
   background-color: #ffff;
 }
 
-.card:hover .p {
+.services .card:hover .p {
   background-color: #f0f0f0;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  section.services {
+  section .services {
     padding: 0 2em;
   }
   .column {
@@ -314,7 +314,7 @@ div.row.h2 {
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-  section.services {
+  section .services {
     padding: 1em 3em;
   }
   .column {
@@ -325,7 +325,7 @@ div.row.h2 {
   }
 }
 @media (min-width: 1024px) {
-  section.services {
+  section .services {
     padding: 2em 4em;
     display: grid;
     grid-template-columns: 1fr 1fr;
