@@ -25,3 +25,25 @@ nav ul {
   display: inline-block;
   margin: 0 5px;
 }
+
+.quote {
+  margin: 5rem 0;
+}
+.quote .container {
+  margin-top: 2rem;
+}
+.quote .container .cardtext {
+  background-color: var(--bg-color);
+  width: 50%;
+}
+.quote .container .cardimage {
+  width: 20%;
+}
+.quote .container .cardimage img {
+  height: 100%;
+}
+.cardaa {
+  gap: 8rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
