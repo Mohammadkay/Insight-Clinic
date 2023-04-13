@@ -25,3 +25,92 @@ nav ul {
   display: inline-block;
   margin: 0 5px;
 }
+
+/* Start hero */
+.hero {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.hero::before {
+  content: "";
+  background: url(https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(0.6);
+  z-index: -1;
+}
+
+.hero .container {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero h1 {
+  margin-bottom: 3rem;
+  font-size: 5.2rem;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+}
+
+.hero ul.flex {
+  gap: 2rem;
+}
+
+.hero a:link,
+.hero a:visited {
+  padding: 0.8rem 3.4rem;
+  border: 1px solid #fff;
+  background-color: var(--main-color);
+  transition: all 0.3s;
+  font-size: 1.8rem;
+}
+
+.hero a:hover {
+  background-color: #999;
+}
+/* End hero */
+
+/* Start footer */
+footer {
+  background-color: var(--bg-color);
+  height: 80px;
+}
+
+footer div.flex {
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100%;
+}
+
+footer p {
+  font-size: 1.4rem;
+}
+footer ul {
+  font-size: 2.6rem;
+  gap: 1.2rem;
+}
+footer a {
+  transition: all 0.3s;
+}
+footer a:hover {
+  color: #999;
+}
+
+@media (max-width: 480px) {
+  footer div.flex {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+/* End footer */
