@@ -218,9 +218,8 @@ footer a:hover {
   background-color: lightseagreen;
   transition: 0.2s ease;
 }
-<<<<<<< HEAD
+
 /*end of our team*/
-=======
 
 /* our services*/
 
@@ -310,7 +309,7 @@ div.row.h2 {
   }
   .column {
     flex: 0 50%;
-    max: width 50%;
+    max-width: 50%;
   }
 }
 
@@ -337,4 +336,3 @@ div.row.h2 {
   }
 }
 /*end our services*/
->>>>>>> 073f7ccd878f20c0927b76a3916c55d2df2e1c6f
