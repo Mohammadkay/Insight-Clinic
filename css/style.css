@@ -156,14 +156,14 @@ footer a:hover {
 }
 /* end about*/
 /*our team*/
-.cards {
+.team {
   margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 100px;
 }
 
-.card {
+.team .card {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   border: 1px solid black;
   min-height: 60vh;
@@ -174,35 +174,35 @@ footer a:hover {
   color: black;
 }
 
-.card img {
+.team .card img {
   width: 100%;
   height: 50vh;
   border-radius: 40px 0px 0px 0px;
 }
 
-.card .content {
+.team .card .content {
   text-align: center;
   padding: 10px;
 }
 
-.card .content h2 {
+.team .card .content h2 {
   margin-top: 5px;
   letter-spacing: 1.5px;
   color: #333;
 }
 
-.content h3 {
+.team .card.content h3 {
   font-size: 17px;
   color: #5c5c5c;
   letter-spacing: 1.5px;
 }
 
-.card.content p {
+.team .card .content p {
   margin-top: 10px;
   color: #5c5c5c;
 }
 
-.card .content a {
+.team .card .content a {
   margin-top: 10px;
   text-decoration: none;
   display: inline-block;
@@ -214,7 +214,7 @@ footer a:hover {
   letter-spacing: 1.5px;
 }
 
-.card .content a:hover {
+.team .card .content a:hover {
   background-color: lightseagreen;
   transition: 0.2s ease;
 }
@@ -248,7 +248,7 @@ div.row.h2 {
   width: 100%;
 }
 
-.card {
+.services .card {
   border: 1px solid var(--bg-color);
   width: 100%;
   height: 100%;
@@ -261,7 +261,7 @@ div.row.h2 {
   transition: 0.5s;
 }
 
-.h3 {
+.services .h3 {
   font-size: 2em;
   font-weight: 600;
   margin: 3em;
@@ -269,13 +269,13 @@ div.row.h2 {
   text-align: center;
 }
 
-.p {
+.services .p {
   font-size: 1.4em;
   line-height: 1.6;
   color: var(--text-color);
 }
 
-.icon {
+.services .icon {
   position: relative;
   margin: auto;
   font-size: 3em;
@@ -287,11 +287,11 @@ div.row.h2 {
   transition: 0.5s;
 }
 
-.card:hover {
+.services .card:hover {
   background-position: 0 100%;
 }
 
-.card:hover .icon {
+.services .card:hover .icon {
   background-color: #ffff;
 }
 
