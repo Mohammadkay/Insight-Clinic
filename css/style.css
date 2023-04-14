@@ -83,7 +83,9 @@ nav ul {
 /* Start quote */
 .quote {
   margin: 5rem 0;
+  font-size: 2.4rem;
 }
+
 .quote .container {
   margin-top: 2rem;
 }
@@ -106,10 +108,19 @@ nav ul {
   background-color: var(--bg-color);
 }
 /* end quote */
+.testimonia {
+  font-size: 2.4rem;
+}
+.slider:hover {
+  background-color: var(--main-color);
+}
 .cardaa {
   gap: 8rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+.cardaa p {
+  font-size: 2rem;
 }
 
 /* Start footer */
