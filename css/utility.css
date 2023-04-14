@@ -18,10 +18,7 @@
 .flex {
   display: flex;
 }
-.felxcolumn {
-  display: flex;
-  flex-direction: column;
-}
+
 .text-center {
   text-align: center;
 }
