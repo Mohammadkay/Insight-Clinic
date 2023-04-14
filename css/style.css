@@ -100,7 +100,11 @@ nav ul {
 .quote .container .cardtext .textaa {
   width: 50%;
 }
-
+.testimonia-card {
+  justify-content: space-between;
+  padding-right: 0;
+  background-color: var(--bg-color);
+}
 /* end quote */
 .cardaa {
   gap: 8rem;
