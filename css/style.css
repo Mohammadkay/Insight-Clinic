@@ -186,6 +186,7 @@ nav ul {
 /* Start hero */
 .hero {
   position: relative;
+  z-index: -1;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -239,6 +240,7 @@ nav ul {
   background-color: #fff;
 }
 /* End hero */
+
 /* Start quote */
 .quote {
   margin: 5rem 0;
@@ -340,6 +342,8 @@ footer a:hover {
 
 .about h1 {
   width: 100%;
+  position: relative;
+  z-index: -1;
   text-align: center;
   font-size: 3.4rem;
   margin: 2rem 0;
@@ -439,6 +443,8 @@ footer a:hover {
 /* our services*/
 
 section.services {
+  position: relative;
+  z-index: -1;
   font-size: 1.3rem;
   min-height: 100vh;
   max-height: 100%;
@@ -606,19 +612,19 @@ section div {
 }
 .mail i {
   background-color: var(--secondary-color);
-  padding: 38px 21px;
+  padding: 3.8rem 2.1rem;
   border-radius: 50%;
   font-size: 4rem;
 }
 .phone i {
   background-color: var(--secondary-color);
-  padding: 32px 16px;
+  padding: 3.8rem 2.1rem;
   border-radius: 50%;
   font-size: 4rem;
 }
 .location i {
   background-color: var(--secondary-color);
-  padding: 32px 16px;
+  padding: 3.8rem 2.1rem;
   border-radius: 50%;
   font-size: 4rem;
 }
