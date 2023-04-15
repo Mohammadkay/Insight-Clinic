@@ -214,7 +214,10 @@ footer a:hover {
 .team {
   margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  );
   gap: 100px;
 }
 
@@ -303,7 +306,10 @@ section.services {
   width: 100%;
   height: 100%;
   padding: 2em 1.5em;
-  background: linear-gradient(#ffff 50%, var(--main-color) 50%);
+  background: linear-gradient(
+    #ffff 50%,
+    var(--main-color) 50%
+  );
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
@@ -391,3 +397,19 @@ section.services {
   }
 }
 /*end our services*/
+
+/* START FORM */
+form {
+  font-size: 2rem;
+}
+
+input,
+textarea,
+button {
+  font-size: 1.5rem !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem #666;
+  border-color: transparent;
+}
