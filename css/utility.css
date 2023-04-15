@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   --main-font: "Poppins", sans-serif;
-  --main-color: #b9eddd;
-  --secondary-color: #87cbb9;
-  --text-color: #569daa;
-  --bg-color: #577d86;
+  --main-color: #b4869f;
+  --secondary-color: #b4869f94;
+  --text-color: #131313;
+  --bg-color: #fdf4f5;
 }
 
 .container {
@@ -43,6 +43,7 @@ html {
 body {
   font-family: var(--main-font);
   color: black;
+  background-color: var(--bg-color);
 }
 
 img {
