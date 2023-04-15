@@ -47,9 +47,10 @@
         </nav>
       </div>
     </header>
-    <form class="g-3 container mt-5 mb-5">
+
+    <form class="g-3 container mt-5 mb-5 row">
       <h4 class="mb-5">Leave a message here</h4>
-      <div class="col-md-5 col-10">
+      <div class="col-md-5 col-5">
         <label for="inputAddress" class="form-label mt-5">First Name</label>
         <input
           type="text"
@@ -58,8 +59,8 @@
           placeholder="First name"
         />
       </div>
-      <div class="col-md-5 col-10">
-        <label for="inputPassword4" class="form-label">Last Name</label>
+      <div class="col-md-5 col-15">
+        <label for="inputPassword4" class="form-label mt-5">Last Name</label>
         <input
           type="text"
           class="form-control mb-4 p-3"
@@ -67,12 +68,27 @@
           placeholder="Last name"
         />
       </div>
+
       <div class="col-md-5 col-10">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control mb-4 p-3" id="inputEmail4" />
+        <label for="inputEmail4" class="form-label">Subject</label>
+        <input
+          type="email"
+          class="form-control mb-4 p-3"
+          id="inputEmail4"
+          placeholder="Subject"
+        />
+      </div>
+      <div class="col-md-5 col-10">
+        <label for="inputEmail4" class="form-label">Phone Number</label>
+        <input
+          type="email"
+          class="form-control mb-4 p-3"
+          id="inputEmail4"
+          placeholder="Phone Number"
+        />
       </div>
 
-      <div class="floatingTextarea2 col-md-5 col-10">
+      <div class="floatingTextarea2 col-10">
         <label for="floatingTextarea2">Message </label>
         <textarea
           class="form-control"
@@ -82,22 +98,51 @@
         ></textarea>
       </div>
 
-      <div class="col-12">
-        <button type="submit" class="btn">Send</button>
+      <div class="col-3 text-center mt-5 but">
+        <a href="#" class="col-12 fs-2" type="submit" class="btn">Send</a>
       </div>
     </form>
+
+    <div class="container">
+      <h1>Contact Us</h1>
+      <section class="contuctus">
+        <div class="mail col-3">
+          <i class="fa-regular fa-envelope-open fa-lg" style="color: #fff"></i>
+          <h3>Email</h3>
+          <p>Sadaqa@Sadaqa.com</p>
+        </div>
+        <div class="phone col-3">
+          <i class="fa-solid fa-phone fa-lg" style="color: #ffffff"></i>
+          <h3>Phone</h3>
+          <p>+962 7 9661 8504</p>
+        </div>
+        <div class="location col-3">
+          <i class="fa-solid fa-location-dot fa-lg" style="color: #fff"></i>
+          <h3>Office</h3>
+          <p>Orange Coding Academy</p>
+        </div>
+        <img src="./" alt="" />
+      </section>
+    </div>
+
     <footer>
       <div class="container flex">
         <p>All copyright reserved to Insight Team &copy;</p>
         <ul class="flex">
           <li>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://web.whatsapp.com/"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
           </li>
         </ul>
       </div>

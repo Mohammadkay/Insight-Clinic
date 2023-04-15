@@ -10,13 +10,13 @@ header div.container {
   min-height: 6rem;
 }
 .logo {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   padding: 0.8rem 1.5rem;
   font-family: "Montserrat", sans-serif;
 }
 nav ul {
   gap: 30px;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .logo span {
   color: #878787;
@@ -65,14 +65,16 @@ nav ul {
 
 .hero ul.flex {
   gap: 2rem;
+  justify-content: center;
 }
 
 .hero a:link,
 .hero a:visited {
   padding: 0.8rem 3.4rem;
   border: 1px solid #fff;
+  border-radius: 1rem;
   background-color: var(--main-color);
-  transition: all 0.3s;
+  transition: 1s;
   font-size: 1.8rem;
 }
 
@@ -168,7 +170,7 @@ footer a:hover {
   gap: 0.8rem;
 }
 .about article {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   width: 49%;
   color: black;
   text-align: center;
@@ -214,10 +216,7 @@ footer a:hover {
 .team {
   margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(250px, 1fr)
-  );
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 100px;
 }
 
@@ -283,7 +282,9 @@ footer a:hover {
 /* our services*/
 
 section.services {
-  height: 100vh;
+  font-size: 1.3rem;
+  min-height: 100vh;
+  max-height: 100%;
   width: 100%;
   display: grid;
   justify-content: center;
@@ -295,6 +296,7 @@ section.services {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 
 .column {
@@ -306,10 +308,7 @@ section.services {
   width: 100%;
   height: 100%;
   padding: 2em 1.5em;
-  background: linear-gradient(
-    #ffff 50%,
-    var(--main-color) 50%
-  );
+  background: linear-gradient(#ffff 50%, var(--main-color) 50%);
   background-size: 100% 200%;
   background-position: 0 2.5%;
   border-radius: 5px;
@@ -402,14 +401,67 @@ section.services {
 form {
   font-size: 2rem;
 }
-
-input,
-textarea,
-button {
+form input,
+form textarea,
+form a {
   font-size: 1.5rem !important;
+}
+form a {
+  background-color: var(--secondary-color) !important;
+  border: var(--secondary-color) solid;
+  border-radius: 1.5rem;
+  transition: 2s !important;
+}
+form a:hover {
+  background-color: var(--bg-color) !important;
+  transform: scale(1.1);
+  transition: 2s !important;
+  border: var(--secondary-color) solid;
 }
 
 .form-control:focus {
   box-shadow: 0 0 0 0.25rem #666;
   border-color: transparent;
+}
+
+.contuctus {
+  min-height: 300px;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-height: fit-content;
+  margin-bottom: 3rem;
+}
+.contuctus h3 {
+  font-size: 2.4rem;
+}
+.contuctus p {
+  font-size: 1.5rem;
+}
+h1 {
+  color: var(--text-color);
+}
+section div {
+  text-align: center;
+}
+.mail i {
+  background-color: var(--secondary-color);
+  padding: 38px 21px;
+  border-radius: 50%;
+  font-size: 4rem;
+}
+.phone i {
+  background-color: var(--secondary-color);
+  padding: 32px 16px;
+  border-radius: 50%;
+  font-size: 4rem;
+}
+.location i {
+  background-color: var(--secondary-color);
+  padding: 32px 16px;
+  border-radius: 50%;
+  font-size: 4rem;
 }
