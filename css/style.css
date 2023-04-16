@@ -501,7 +501,8 @@ section.services {
 
 .img-ser {
   border-radius: 50%;
-.services .icon {
+}
+.img-ser {
   margin: auto;
   height: 10em;
   width: 10em;
