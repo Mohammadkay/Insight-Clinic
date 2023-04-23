@@ -3,6 +3,7 @@
 header {
   background-color: #b4869f94;
   color: #131313;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -63,7 +64,9 @@ nav ul {
     z-index: 1;
 
     -webkit-user-select: none;
-    user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
   }
 
   #menuToggle input {
@@ -208,7 +211,8 @@ nav ul {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  filter: brightness(0.9);
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
   z-index: -1;
 }
 
@@ -601,6 +605,8 @@ form a:hover {
   grid-template-rows: 1fr;
   justify-content: space-around;
   align-items: center;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
   max-height: fit-content;
   margin-bottom: 3rem;
 }
